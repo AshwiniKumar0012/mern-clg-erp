@@ -1,0 +1,18 @@
+>> Users only are created by Admin.
+>> Role based routing is done :- 
+
+As there are three roles of users are given :- 
+1. Admin -> for manging admin, faculty and students data
+2. Faculty -> for managing students dataex. attendence, 
+3. Student -> for getting feedback from faculty, attendence report 
+
+As per their role they are routed to diferent pannels.
+
+Email password are provided by admin to the user.
+
+For Login of the user denormalization of table is done.i.e. A separate table is created for login.
+
+A Authenticated middleware is added to check if the user is validate or not...
+i.e only user can have access of routes only when he/she is logged in.
+
+
